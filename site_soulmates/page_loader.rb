@@ -1,10 +1,5 @@
 class PageLoader
   def home
-    Home.new
+    HomePage.new
   end
-
-  def find
-    Find.new
-  end
-
 end

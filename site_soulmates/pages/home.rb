@@ -1,17 +1,16 @@
-require 'spec_helper'
-
-class Home < SitePrism::Page
+class HomePage < SitePrism::Page
   set_url ''
   set_url_matcher /soulmates.theguardian.com\/?/
 
-  # element :carousel, "#xxxsl-content > section > div.carousel.carousel-collapsible > div.carousel-viewport > ul > li.carousel-slides-item.is-current > ul"
-  # element :find_button, "#xxxbody > div > div:nth-child(1) > div.home-intro > div > div > form > fieldset > button"
+  element :username_field, "#sign-in-user"
+  element :password_field, "#sign-in-pass"
 
-  element :username, "#sign-in-user"
+  element :button_find, "body > div > div:nth-child(1) > div.home-intro > div > div > form > fieldset > button"
+  element :find_mygender_woman, "#id_my_gender > option:nth-child(1)"
+  element :find_seeking_man, "#id_match_gender > option:nth-child(2)"
 
-  element :search_field, "input[name='q']"
-  element :search_button, "button[name='btnK']"
-  elements :footer_links, "#footer a"
+  element :carousel_next, "#sl-content > section > div.carousel.carousel-collapsible > div:nth-child(1) > span.carousel-nav-item.carousel-nav-next"
+  element :carousel_previous, "#sl-content > section > div.carousel.carousel-collapsible > div:nth-child(1) > span.carousel-nav-item.carousel-nav-prev"
 end
 
 
