@@ -10,5 +10,7 @@ Ruby tutorial: http://www.codecademy.com/en/tracks/ruby
 Ruby version manager: https://rvm.io  
 RubyMine: http://www.jetbrains.com/ruby  
 Siteprism: https://github.com/natritmeyer/site_prism  
+Betterspecs: http://betterspecs.org/
 
+![NYAN](nyan_screenshot.bmp)
 
