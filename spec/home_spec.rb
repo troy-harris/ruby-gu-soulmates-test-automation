@@ -1,6 +1,5 @@
 require_relative './spec_helper'
 
-
   describe 'The Guardian Soulmates homepage' do
 
     it 'loads as https' do

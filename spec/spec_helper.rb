@@ -2,7 +2,6 @@ require 'capybara'
 require 'capybara/rspec'
 require 'selenium-webdriver'
 require 'site_prism'
-
 require_relative '../site_soulmates/page_loader'
 require_relative '../site_soulmates/pages/home'
 

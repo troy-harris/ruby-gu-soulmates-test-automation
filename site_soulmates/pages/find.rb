@@ -4,5 +4,4 @@ class FindPage < SitePrism::Page
 
   element :username_field, "#sign-in-user"
   element :password_field, "#sign-in-pass"
-
 end
