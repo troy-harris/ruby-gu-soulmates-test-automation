@@ -1,7 +1,7 @@
 require_relative './spec_helper'
 
 
-  describe 'Soulmates home page' do
+  describe 'The Guardian Soulmates homepage' do
 
     it 'loads as https' do
       @page = PageLoader.new
@@ -16,14 +16,14 @@ require_relative './spec_helper'
         expect(@page.home).to have_password_field
       end
 
-      it 'navigates next and previous' do
+      it 'has an image carousel you can navigate' do
         @page = PageLoader.new
         @page.home.load
         @page.home.carousel_next.click
         @page.home.carousel_previous.click
       end
 
-      it 'should return results from /find page' do
+      it 'has a find a profile form you can search with' do
         @page = PageLoader.new
         @page.home.load
         @page.home.find_mygender_woman.click
