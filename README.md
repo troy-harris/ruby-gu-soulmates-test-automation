@@ -14,7 +14,7 @@ RubyMine: http://www.jetbrains.com/ruby
 Siteprism: https://github.com/natritmeyer/site_prism  
 Betterspecs: http://betterspecs.org/
 
-ToDo:
-Parallel tests: https://github.com/grosser/parallel_tests
-PhantomJS: https://github.com/teampoltergeist/poltergeist
-Get saucey: https://docs.saucelabs.com/tutorials/ruby/
+ToDo:  
+Parallel tests: https://github.com/grosser/parallel_tests  
+PhantomJS: https://github.com/teampoltergeist/poltergeist  
+Get saucey: https://docs.saucelabs.com/tutorials/ruby/  
