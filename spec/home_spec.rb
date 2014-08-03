@@ -6,7 +6,7 @@ require_relative './spec_helper'
       @page = PageLoader.new
       @page.home.load
       @page.home.secure?
-      end
+    end
 
     it 'should display login fields' do
       @page = PageLoader.new
